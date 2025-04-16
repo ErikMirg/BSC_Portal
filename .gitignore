@@ -1,0 +1,8 @@
+bsc_client/node_modules/
+bsc_client/.env
+bsc_client/build/
+
+bsc_server/__pycache__/
+bsc_server/.env
+bsc_server/uploads/
+bsc_server/logs/

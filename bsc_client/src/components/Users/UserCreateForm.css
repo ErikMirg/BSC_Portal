@@ -1,0 +1,75 @@
+.card {
+  max-width: 650px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.row-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+  font-size: 1.05rem;
+}
+
+.row-label {
+  font-weight: 600;
+  flex: 0 0 30%;
+  text-align: left;
+  color: #333;
+  font-size: 1.05rem;
+  margin-top: 0.3rem;
+}
+
+.row-input {
+  flex: 1;
+}
+
+.row-input input,
+.select-field {
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  box-sizing: border-box;
+  appearance: none;
+}
+
+.error {
+  min-height: 1.2rem;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: #dc2626;
+}
+
+.btn-group.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}

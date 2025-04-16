@@ -1,0 +1,79 @@
+.profiles-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.profile-card {
+  background: #ffffff;
+  border: 2px solid #d1d5db;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04);
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+  align-self: start;
+}
+
+.profile-card:hover {
+  background-color: #e5e7eb;
+  border-color: #6b7280;
+  transform: translateY(-5px);
+}
+
+.profile-photo {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #9ca3af;
+  background-color: #f3f4f6;
+  margin-bottom: 1rem;
+}
+
+.profile-name {
+  margin: 0.2rem 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.profile-dept,
+.profile-line {
+  font-size: 0.95rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 999px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.profile-dept {
+  margin: 0.3rem 0;
+  font-weight: 600;
+  color: #2563eb;
+  background-color: #eef2ff;
+}
+
+.profile-line {
+  margin: 0.25rem 0;
+  color: #374151;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}

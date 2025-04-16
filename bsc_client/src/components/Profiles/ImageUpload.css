@@ -1,0 +1,51 @@
+.image-upload-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.upload-area {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  color: #555;
+  background-color: #f9fafb;
+  transition: background 0.3s ease;
+  position: relative;
+}
+
+.upload-area:hover {
+  background-color: #f3f4f6;
+}
+
+.upload-area.drag-over {
+  background-color: #e0f2fe;
+  border-color: #38bdf8;
+  color: #2563eb;
+}
+
+.or-text {
+  font-size: 0.9rem;
+  color: #888;
+  margin: 0.4rem 0;
+}
+
+.preview-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preview-image {
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin-bottom: 0.7rem;
+}
+
+.replace-text {
+  font-size: 0.9rem;
+  color: #666;
+}
